@@ -47,6 +47,8 @@ Every Section includes a Header composed of two areas:
   - Actions always apply to the active View.
   - Actions are grouped by responsibility:
     - **Content selection** (what information is visible in the View).
-    - **View actions** (display options, sorting, export, etc.).
+    - **Other actions** (display options, sorting, export, etc.).
 
+All contextual actions operate exclusively on the active View of the Section.
 The concrete interaction pattern (icons, popovers, dialogs, panels...) is implementation-specific and is not defined at the architectural level.
+
