@@ -68,23 +68,21 @@ It uses a common layout system shared by all supported content types.
 
 ## Grid
 
-The Content Area is based on a fluid 12-column grid.
+The Content Area uses a 12-column grid.
 
-Initial desktop values:
+### Phase A — Top Navigation
 
-| Property | Value | Status |
-|----------|------:|--------|
-| Columns | 12 | Accepted |
-| Outer Margin | 24 px | Provisional |
-| Gutter | 20 px | Provisional |
-| Initial design width | 1280 px | Provisional |
-| Validation width | 1920 px | Provisional |
+The current layout uses a top navigation pattern. Since navigation does not occupy horizontal space, the grid uses the full viewport width.
 
-The grid belongs to the Content Area.
+At the 1280 px reference viewport:
 
-Navigation is always placed outside the grid.
+- Columns: 12
+- Column width: 85 px
+- Gutter: 20 px
+- Left margin: 20 px
+- Right margin: 20 px
 
----
+The grid spans the full 1280 px viewport.
 
 ## Column Spans
 
